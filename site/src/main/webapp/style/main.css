@@ -10,12 +10,15 @@ a:hover{text-decoration:none;}
 #footer a{color:#FFFFFF;}
 #footer a:hover{text-decoration: underline;}
 
+.navi{line-height:30px;height:30px;font-size:14px;clear:both;background: url(../images/navi_category.gif) no-repeat scroll 10px 50% transparent; padding-left:15px;}
 .navitop{}
 .navibottom{border-top: 1px solid #DDDDDD;background-color: #F9F9F9;}
 .navi ul{ margin:0;list-style:none;padding: 0; }
 .navi ul li{ width:112px; height:30px;float:left; margin:1px 0;text-align:center;}
 .navi ul li a{display:block;color:#333333;text-align:center;height:30px; display:block;line-height:30px;}
 .navi ul li a:hover{text-decoration:none;color:#ff6600;font-weight:bold;}
+.navitop ul li a:hover{background: url(../images/arrow_down.gif) no-repeat scroll 100% 50% transparent;}
+.navibottom ul li a:hover{background: url(../images/arrow_top.gif) no-repeat scroll 100% 50% transparent;}
 
 .item .category{background:#cccccc;color:#000;line-height:30px;clear:both;padding-left:10px; letter-spacing:5px; word-spacing : 5px;}
 .item ul{ margin:0; margin-left:1px;list-style:none;padding:0;}
@@ -23,7 +26,7 @@ a:hover{text-decoration:none;}
 .item ul li a{display:block;text-align:center;height:30px; line-height:30px;}
 .item ul li a:link{text-decoration:none;color:#0066bb;}
 .item ul li a:visited{text-decoration:none;color:#0066bb;}
-/*.item ul li a:hover{text-decoration:none;color:#ffffff; font-weight:bold;background: url(../images/arrow_right.gif) no-repeat scroll 100% 50% #0066bb;}*/
+.item ul li a:hover{text-decoration:none;color:#ffffff; font-weight:bold;background: url(../images/arrow_right.gif) no-repeat scroll 100% 50% #0066bb;}
 
 .item .bghot{background-color:#f7d67c;}
 .item .bgrecomand{background-color: #930; color: #FFF;}
